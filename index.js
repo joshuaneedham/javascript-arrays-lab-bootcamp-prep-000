@@ -30,3 +30,7 @@ function removeLastKitten() {
   var kittens2 = kittens.slice(0, kittens.length -1);
   return kittens2;
 }
+function removeFirstKitten() {
+  var kittens2 = kittens.slice(1);
+  return kittens2;
+}
